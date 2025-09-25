@@ -3,151 +3,151 @@
 
 <head>
     <title>HTML (HyperText Markup Language)</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>HTML (HyperText Markup Language)</h1>
+    <main>
+        <h1>HTML (HyperText Markup Language)</h1>
 
-    <h2>Untuk dokumentasi elements dari HTML bisa buka :</h2>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML">
-        https://developer.mozilla.org/en-US/docs/Web/HTML
-    </a>
+        <nav>
+            <a href="index.html">Home</a> |
+            <a href="about.html">About</a> |
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"> Dokumen HTML Mozilla Firefox </a> |
+        </nav>
+        <br>
+        <hr>
 
-    <p>
-        <b>HyperText Markup Language (HTML)</b> is the
-        <a href="http://google.com">standard markup language</a>[a] for documents
-        designed to be displayed in a web browser. It defines the content and
-        structure of web content. It is often assisted by technologies such as
-        <i>Cascading Style Sheets (CSS) </i> and scripting languages such as
-        JavaScript.
-    </p>
-
-    <h2>HTML History</h2>
-    <p>
-        HTML was created by
-        <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>
-        in 1991 while he was working at
-        <a href="https://en.wikipedia.org/wiki/CERN">CERN</a>. The first version
-        of HTML was quite simple compared to the current standard, with only a
-        handful of elements, including <code>&lt;html&gt;</code>,
-        <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
-        <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code> to
-        <code>&lt;h6&gt;</code>, <code>&lt;p&gt;</code>, and
-        <code>&lt;a&gt;</code>.
-    </p>
-
-    <h3>HTML version timeline</h3>
-    <h4>HTML 2</h4>
-    <h4>November 24, 1995</h4>
-    HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:
-    <ol>
-        <li>November 25, 1995: RFC 1867 (form-based file upload)</li>
-        <li>May 1996: RFC 1942 (tables)</li>
-        <li>August 1996: RFC 1980 (client-side image maps)</li>
-        <li>January 1997: RFC 2070 (internationalization)</li>
-    </ol>
-
-    <h4>December 18, 1997</h4>
-    HTML 4.0[19] was published as a W3C Recommendation. It offers three
-    variations:
-    <ul>
-        <li>Strict, in which deprecated elements are forbidden</li>
-        <li>Transitional, in which deprecated elements are allowed</li>
-        <li>
-            Frameset, in which mostly only frame related elements are allowed.
-        </li>
-    </ul>
-    <hr>
-    <h1>Sekarang membuat berpindah page ke about.html</h1>
-    <a href="about.html">Klik Disini Untuk Pindah Ke About.html</a>
-    <hr>
-    <h1>Sekarang membuat image dan source nya diambil dari Internet</h1>
-    <img class="Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5 Logo" width="200"
-        height="200" />
-    <hr>
-    <h1>Sekarang membuat image dan source nya diambil dari Folder Lokal</h1>
-    <img src="kucing.jpeg" alt="Logo Kucing" />
-    <hr>
-    <!-- Kalau mau pake komen strukturnya ini -->
-    <!-- Sekarang mau membuat element block dan elemen line -->
-    <h1>Element Block dan Element Line</h1>
-    <p>
-        Ada namanya div, dia semacam pembungkus yang mengelompokkan elemen,
-        berikut contohnya.
-    </p>
-
-    <div class="warning" style="border: 2px solid red; padding: 10px; max-width: 300px">
-        <img src="kucing_galak.jpeg" alt="Kucing Galak" />
-        <p>Ini adalah kucing galak, jangan dipegang, nanti dicakar</p>
-    </div>
-
-    <!-- Ada lagi namanya span, span itu semacam pembungkus juga tapi areanya inline dan semua yang dibungkus bisa di styling nanti pakai CSS -->
-    <hr>
-    <h1>Element Span</h1>
-
-    <p>
-        Contoh penggunaan span : Ini adalah paragraf
-        <span style="color: red; font-weight: bold">yang ada kata-kata pentingnya</span>
-        jadi dibuat berbeda warnanya dan ditebalkan.
-    </p>
-    <hr>
-    <h1>Entity Code di HTML</h1>
-    <p>
-        Entity code itu semacam kode khusus yang bisa digunakan di HTML, contohnya
-        untuk tanda kutip ganda (") itu kodenya &amp;quot;, untuk tanda kutip
-        tunggal (') itu kodenya &amp;#39;, untuk tanda lebih besar dari (>) itu
-        kodenya &amp;gt;, untuk tanda kurang dari (<) itu kodenya &amp;lt;, untuk tanda dan (&) itu kodenya &amp;amp;.
-            </p>
-            <p>Contoh penggunaan entity code :</p>
-            <i>Saya &quot;sangat suka&#39; belajar HTML &amp; CSS karena sangat
-                menyenangkan &gt; belajar yang lain.</i><br />
-            <i>Ada juga tulisan copy seperti ini : 2024 HTML Documentation Project
-                <sup>&copy;</sup></i>
+        <section>
+            <h2>HTML History</h2>
             <p>
-                Kalau mau liat list character reference bisa di lihat di link ini :
-                <a href="https://dev.w3.org/html5/spec-LC/named-character-references.html">Klik Disini</a>
+                <b>HyperText Markup Language (HTML)</b> is the
+                <a href="http://google.com">standard markup language</a>[a] for documents
+                designed to be displayed in a web browser. It defines the content and
+                structure of web content. It is often assisted by technologies such as
+                <i>Cascading Style Sheets (CSS) </i> and scripting languages such as
+                JavaScript.
             </p>
-            <hr>
-            <h1>Sekarang Belajar Tata Bahasanya HTML yaitu Semantic Markup</h1>
-            <p> Penjelasan sederhananya, jadi kalau semantic markup itu tujuan pembuatan sesuai dengan codingnya.
-                Semantic markup di HTML adalah cara menulis kode HTML dengan tag yang punya arti/makna sesuai dengan isi
-                kontennya, bukan cuma untuk gaya (style).
-                Misalnya: Kalau bikin judul, pakai <code>&lt;h1&gt; ... &lt;/h1&gt;</code>, bukan
-                <code>&lt;div&gt;</code> lalu dikasih CSS besar-besar.
+            <p>
+                HTML was created by
+                <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Tim Berners-Lee</a>
+                in 1991 while he was working at
+                <a href="https://en.wikipedia.org/wiki/CERN">CERN</a>. The first version
+                of HTML was quite simple compared to the current standard, with only a
+                handful of elements, including <code>&lt;html&gt;</code>,
+                <code>&lt;head&gt;</code>, <code>&lt;title&gt;</code>,
+                <code>&lt;body&gt;</code>, <code>&lt;h1&gt;</code> to
+                <code>&lt;h6&gt;</code>, <code>&lt;p&gt;</code>, and
+                <code>&lt;a&gt;</code>.
+            </p>
+            <h3>HTML version timeline</h3>
+            <h4>HTML 2</h4>
+            <h4>November 24, 1995</h4>
+            HTML 2.0 was published as RFC 1866. Supplemental RFCs added capabilities:
+            <ol>
+                <li>November 25, 1995: RFC 1867 (form-based file upload)</li>
+                <li>May 1996: RFC 1942 (tables)</li>
+                <li>August 1996: RFC 1980 (client-side image maps)</li>
+                <li>January 1997: RFC 2070 (internationalization)</li>
+            </ol>
+            <h4>December 18, 1997</h4>
+            HTML 4.0[19] was published as a W3C Recommendation. It offers three
+            variations:
             <ul>
-                <li>Kalau bikin paragraf, pakai <code>&lt;p&gt; ... &lt;/p&gt;</code>, bukan
-                    <code>&lt;span&gt; ... &lt;/span&gt;</code>.
+                <li>Strict, in which deprecated elements are forbidden</li>
+                <li>Transitional, in which deprecated elements are allowed</li>
+                <li>
+                    Frameset, in which mostly only frame related elements are allowed.
                 </li>
-                <li>Kalau bikin navigasi menu, pakai <code>&lt;nav&gt; ... &lt;/nav&gt;</code>.</li>
-                <li>Kalau bikin artikel, pakai <code>&lt;article&gt; ... &lt;/article&gt;</code>.</li>
-                <li>Kalau bikin bagian utama halaman, pakai <code>&lt;main&gt; ... &lt;/main&gt;</code>. </p>
-    </li>
-    </ul>
-    <p>Sebagai contoh lihat di source codenya</p>
-    <p> <b><i>Ini tanpa semantic (pakai div) </i></b></p>
-    <div id="header">Judul Website</div>
-    <div id="nav">Menu 1 | Menu 2 | Menu 3</div>
-    <div id="content">Ini konten utama</div>
+            </ul>
+            <hr>
+        </section>
 
-    <p> <b><i>Ini dengan semantic (pakai coding yang sesuai)</i></b></p>
-    <header>Judul Website</header>
-    <nav>Menu 1 | Menu 2 | Menu 3</nav>
-    <main>Ini konten utama</main>
+        <h1>Sekarang membuat image dan source nya diambil dari Internet</h1>
+        <img class="Logo" src="https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png" alt="HTML5 Logo" width="200"
+            height="200" />
+        <hr>
 
-    <p>Hasil tampilannya sama, tapi fungsi code yang dipakainya beda kesesuaian</p>
-    <p>
-        Dengan semantic markup, kode HTML jadi lebih jelas, mudah dimengerti, dan
-        lebih baik untuk SEO serta aksesibilitas. Ada beberapa contoh coding semantic diantaranya :
-    </p>
-    <ul>
-        <li><code>&lt;header&gt; ... &lt;/header&gt;</code> : untuk bagian atas halaman (header)</li>
-        <li><code>&lt;nav&gt; ... &lt;/nav&gt;</code> : untuk navigasi menu</li>
-        <li><code>&lt;main&gt; ... &lt;/main&gt;</code> : untuk konten utama halaman</li>
-        <li><code>&lt;article&gt; ... &lt;/article&gt;</code> : untuk artikel atau postingan</li>
-        <li><code>&lt;section&gt; ... &lt;/section&gt;</code> : untuk bagian atau seksi tertentu</li>
-        <li><code>&lt;aside&gt; ... &lt;/aside&gt;</code> : untuk konten sampingan atau tambahan</li>
-        <li><code>&lt;footer&gt; ... &lt;/footer&gt;</code> : untuk bagian bawah halaman (footer)</li>
-    </ul>
+        <h1>Sekarang membuat image dan source nya diambil dari Folder Lokal</h1>
+        <img src="kucing.jpeg" alt="Logo Kucing" />
+        <hr>
+        <!-- Kalau mau pake komen strukturnya ini -->
+        <!-- Sekarang mau membuat element block dan elemen line -->
+        <h1>Element Block dan Element Line</h1>
+        <p>
+            Ada namanya div, dia semacam pembungkus yang mengelompokkan elemen,
+            berikut contohnya.
+        </p>
+        <div class="warning" style="border: 2px solid red; padding: 10px; max-width: 300px">
+            <img src="kucing_galak.jpeg" alt="Kucing Galak" />
+            <p>Ini adalah kucing galak, jangan dipegang, nanti dicakar</p>
+        </div>
+        <!-- Ada lagi namanya span, span itu semacam pembungkus juga tapi areanya inline dan semua yang dibungkus bisa di styling nanti pakai CSS -->
+        <hr>
+        <h1>Element Span</h1>
+        <p>
+            Contoh penggunaan span : Ini adalah paragraf
+            <span style="color: red; font-weight: bold">yang ada kata-kata pentingnya</span>
+            jadi dibuat berbeda warnanya dan ditebalkan.
+        </p>
+        <hr>
+        <h1>Entity Code di HTML</h1>
+        <p>
+            Entity code itu semacam kode khusus yang bisa digunakan di HTML, contohnya
+            untuk tanda kutip ganda (") itu kodenya &amp;quot;, untuk tanda kutip
+            tunggal (') itu kodenya &amp;#39;, untuk tanda lebih besar dari (>) itu
+            kodenya &amp;gt;, untuk tanda kurang dari (<) itu kodenya &amp;lt;, untuk tanda dan (&) itu kodenya
+                &amp;amp;. </p>
+                <p>Contoh penggunaan entity code :</p>
+                <i>Saya &quot;sangat suka&#39; belajar HTML &amp; CSS karena sangat
+                    menyenangkan &gt; belajar yang lain.</i><br />
+                <i>Ada juga tulisan copy seperti ini : 2024 HTML Documentation Project
+                    <sup>&copy;</sup></i>
+                <p>
+                    Kalau mau liat list character reference bisa di lihat di link ini :
+                    <a href="https://dev.w3.org/html5/spec-LC/named-character-references.html">Klik Disini</a>
+                </p>
+                <hr>
+                <h1>Sekarang Belajar Tata Bahasanya HTML yaitu Semantic Markup</h1>
+                <p> Penjelasan sederhananya, jadi kalau semantic markup itu tujuan pembuatan sesuai dengan codingnya.
+                    Semantic markup di HTML adalah cara menulis kode HTML dengan tag yang punya arti/makna sesuai dengan
+                    isi
+                    kontennya, bukan cuma untuk gaya (style).
+                    Misalnya: Kalau bikin judul, pakai <code>&lt;h1&gt; ... &lt;/h1&gt;</code>, bukan
+                    <code>&lt;div&gt;</code> lalu dikasih CSS besar-besar.
+                <ul>
+                    <li>Kalau bikin paragraf, pakai <code>&lt;p&gt; ... &lt;/p&gt;</code>, bukan
+                        <code>&lt;span&gt; ... &lt;/span&gt;</code>.
+                    </li>
+                    <li>Kalau bikin navigasi menu, pakai <code>&lt;nav&gt; ... &lt;/nav&gt;</code>.</li>
+                    <li>Kalau bikin artikel, pakai <code>&lt;article&gt; ... &lt;/article&gt;</code>.</li>
+                    <li>Kalau bikin bagian utama halaman, pakai <code>&lt;main&gt; ... &lt;/main&gt;</code>. </p>
+        </li>
+        </ul>
+        <p>Sebagai contoh lihat di source codenya</p>
+        <p> <b><i>Ini tanpa semantic (pakai div) </i></b></p>
+        <div id="header">Judul Website</div>
+        <div id="nav">Menu 1 | Menu 2 | Menu 3</div>
+        <div id="content">Ini konten utama</div>
+        <p> <b><i>Ini dengan semantic (pakai coding yang sesuai)</i></b></p>
+        <header>Judul Website</header>
+        <nav>Menu 1 | Menu 2 | Menu 3</nav>
+        <main>Ini konten utama</main>
+        <p>Hasil tampilannya sama, tapi fungsi code yang dipakainya beda kesesuaian</p>
+        <p>
+            Dengan semantic markup, kode HTML jadi lebih jelas, mudah dimengerti, dan
+            lebih baik untuk SEO serta aksesibilitas. Ada beberapa contoh coding semantic diantaranya :
+        </p>
+        <ul>
+            <li><code>&lt;header&gt; ... &lt;/header&gt;</code> : untuk bagian atas halaman (header)</li>
+            <li><code>&lt;nav&gt; ... &lt;/nav&gt;</code> : untuk navigasi menu</li>
+            <li><code>&lt;main&gt; ... &lt;/main&gt;</code> : untuk konten utama halaman</li>
+            <li><code>&lt;article&gt; ... &lt;/article&gt;</code> : untuk artikel atau postingan</li>
+            <li><code>&lt;section&gt; ... &lt;/section&gt;</code> : untuk bagian atau seksi tertentu</li>
+            <li><code>&lt;aside&gt; ... &lt;/aside&gt;</code> : untuk konten sampingan atau tambahan</li>
+            <li><code>&lt;footer&gt; ... &lt;/footer&gt;</code> : untuk bagian bawah halaman (footer)</li>
+        </ul>
+    </main>
 
 
     <hr>
@@ -185,7 +185,129 @@
     </script>
 
     <hr>
-    <h1>Sekarang masuk ke Materi Lain</h1>
+    <h1>Sekarang masuk ke Materi Aside </h1>
+    <p>
+        Salamanders are a group of amphibians with a lizard-like appearance, including
+        short legs and a tail in both larval and adult forms.
+    </p>
+
+    <aside>
+        <p>The Rough-skinned Newt defends itself with a deadly neurotoxin.</p>
+    </aside>
+
+    <p>
+        Several species of salamander inhabit the temperate rainforest of the Pacific
+        Northwest, including the Ensatina, the Northwestern Salamander and the
+        Rough-skinned Newt. Most salamanders are nocturnal, and hunt for insects,
+        worms and other small creatures.
+    </p>
+
+    <hr>
+    <h1>Selanjutnya masuk ke Materi Table </h1>
+    <table>
+        <caption>
+            Front-end web developer course 2021
+        </caption>
+        <thead>
+            <tr>
+                <th scope="col">Person</th>
+                <th scope="col">Most interest in</th>
+                <th scope="col">Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Chris</th>
+                <td>HTML tables</td>
+                <td>22</td>
+            </tr>
+            <tr>
+                <th scope="row">Dennis</th>
+                <td>Web accessibility</td>
+                <td>45</td>
+            </tr>
+            <tr>
+                <th scope="row">Sarah</th>
+                <td>JavaScript frameworks</td>
+                <td>29</td>
+            </tr>
+            <tr>
+                <th scope="row">Karen</th>
+                <td>Web performance</td>
+                <td>36</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row" colspan="2">Average age</th>
+                <td>33</td>
+            </tr>
+        </tfoot>
+    </table><br><br>
+
+    <!-- Sekarang implementasi kalau ada merging kolom dan baris-->
+     <table>
+        <caption>
+           Tabel tentang Nilai Siswa :
+        </caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Name</th>
+                <th colspan="4">Scores</th>
+            </tr>
+            <tr>
+                <th>Math</th>
+                <th>Science</th>
+                <th>English</th>
+                <th>History</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice</td>
+                <td>90</td>
+                <td>85</td>
+                <td>88</td>
+                <td>92</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Bob</td>
+                <td>80</td>
+                <td>75</td>
+                <td>78</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td colspan="2">Average: 77.5</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3">Total Students: 3</td>
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+
+    <h1>Selanjutnya masuk ke Materi Form </h1>
+    <p> <a href="login.html">Dokumentasi Form HTML</a>
+    
+
+
+    <hr>
+    <h1>Terakhir masuk ke Materi Footer </h1>
+    <!--Posisi Footer ini Harus di Luar <main> -->
+    <article>
+        <footer>
+            <br>
+            <p>© 2018 Gandalf</p>
+            <br>
+        </footer>
+    </article>
+
+
+
 
 
 
